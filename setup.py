@@ -14,15 +14,17 @@ setup(
         'shablonizator': [
             'site_templates/booking/*.html',
             'site_templates/booking/js/*.js',
-            'site_templates/booking/css/*.css'
+            'site_templates/booking/css/*.css',
+            'site_templates/booking/images/*'
         ]
     },
     install_requires=[
-        # Список зависимостей, если потребуются
+        'setuptools>=45.0.0',
+        'wheel>=0.34.2',
     ],
     entry_points={
         'console_scripts': [
-            'booking-site-gen=site_generator.generator:main'
+            'booking-site-gen=shablonizator.generator:main'
         ]
     },
     classifiers=[
@@ -34,7 +36,8 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
     ],
-    keywords='site generator booking website',
+    keywords='site generator booking website template',
     python_requires='>=3.7',
-    include_package_data=True
+    include_package_data=True,
+    zip_safe=False,
 )
