@@ -6,9 +6,9 @@ setup(
     description='Генератор сайта для системы бронирования',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    author='Your Name',
-    author_email='your.email@example.com',
-    url='https://github.com/yourusername/booking-site-generator',
+    author='katarymba',
+    author_email='email@example.com',
+    url='https://github.com/Y3ppi3/booking-site-generator',
     packages=find_packages(),
     package_data={
         'shablonizator': [
