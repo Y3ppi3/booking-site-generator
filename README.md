@@ -14,7 +14,7 @@
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/yourusername/booking-site-generator.git
+git clone https://github.com/Y3ppi3/booking-site-generator.git
 
 # Переход в директорию проекта
 cd booking-site-generator
